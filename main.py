@@ -9,6 +9,7 @@ def add_todo():
 
 sl.title("To-Do Web App")
 sl.subheader("This is my Todo web app")
+sl.text("It will increase your Productivity")
 for index,todo in enumerate(todos):
     checkbox = sl.checkbox(todo,key=todo)
     if checkbox:
